@@ -1,0 +1,15 @@
+# Pre-Rendering
+ro.vendor.perf.scroll_opt=true
+
+# SystemUI And Blur
+persist.sysui.disableBlur=true
+ro.surface_flinger.supports_background_blur=0
+persist.sys.sf.disable_blurs=0
+ro.sf.blurs_are_expensive=0
+ro.launcher.blur.appLaunch=0
+
+# IMS Debugging
+persist.vendor.ims.disableADBLogs=1
+persist.vendor.ims.disableDebugLogs=1
+persist.vendor.ims.disableIMSLogs=1
+persist.vendor.ims.disableQXDMLogs=1
